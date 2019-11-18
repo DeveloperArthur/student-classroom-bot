@@ -1,9 +1,3 @@
-/*A turma de programação I, por ter muitos alunos, será dividida em dias de provas. 
-Decidiu-se dividi-las em 3 grupos. 
-Faça um programa que leia o nome do aluno e imprima a sala onde o mesmo irá fazer a prova:
-A – K: sala 101
-L – N: sala 102
-O – Z: sala 103*/
 package br.com.scb;
 import java.util.Scanner;
 
@@ -18,6 +12,6 @@ public class Main {
 		AlunoServicoImpl servico = new AlunoServicoImpl();
 		
 		String sala = servico.mostrarSala(aluno.getNome());
-		System.out.println(aluno.getNome()+" sua sala é a "+sala);
+		System.out.println(aluno.getNome()+" sua sala Ã© a "+sala);
 	}
 }
